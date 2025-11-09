@@ -28,13 +28,13 @@
   - ### System 
     - 클라이언트 => 웹 업로드/REST 요청
    
-    - Backend(flask)
+   - Backend(flask)
     - 입력 검증 및 확장자와 크기 체크
     - 얼굴 탐지 -> 크롭 및 정규화 진행
     - 딥러닝 추론(EfficientNet-B3)
     - 결과 반환 및 로그 적재
    
-    - DB/Storage
+   - DB/Storage
     - 요청 결과 로그
     - 업로드 한 이미지
    
